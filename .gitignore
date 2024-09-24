@@ -32,6 +32,11 @@ dist/
 build/
 out/
 
+# Tailwind CSS
+tailwind.config.js
+postcss.config.js
+*.css
+
 # Temporary files
 *.tmp
 *.swp
