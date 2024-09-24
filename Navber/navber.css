@@ -22,10 +22,11 @@
     margin-left: 20px;
 }
 a{
-    text-decoration: none;
-
+text-decoration: none;
+color: #212121;
 }
 a:hover{
-    color:brown;
-    background-color: rgba(216, 216, 216, 0.545)
+    color: white;
+    background-color: #b1b1d6; 
+    border-radius: 5px;
 }
