@@ -23,12 +23,12 @@
 }
 a{
 text-decoration: none;
-color: #212121;
+color: #5f5b5b;
 }
 a:hover{
-    color: white;
-    background-color: #b1b1d6; 
-    border-radius: 5px;
+    color: rgb(9, 19, 225);
+    /* background-color: #b1b1d6;  */
+    /* border-radius: 5px; */
 }
 .dropdown{
     position: relative;
