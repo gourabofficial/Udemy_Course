@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todo.css">
 </head>
 
 <body>
     <div class="main-container">
         <h1>Todo List</h1>
 
-        <div class="input-group">
-            <input class="input-container" type="text" placeholder="Add your task">
-            <button class="btn">Add</button>
-        </div>
-
+        <form class="input-group">
+            <input class="input-container" type="text" placeholder="Add your task" aria-label="Task input">
+            <button class="btn" type="submit">Add</button>
+        </form>
+        
         <ul class ="todo-ul" id="taskList">
             
         </ul>
